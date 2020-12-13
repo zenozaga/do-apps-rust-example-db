@@ -1,8 +1,8 @@
 spec:
-  name: sample-dockerfile
+  name: do-apps-rust-example
   services:
   - dockerfile_path: Dockerfile
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-dockerfile.git
-    name: sample-dockerfile
+      repo_clone_url: https://github.com/davidedelpapa/do_apps_rust_example.git
+    name: do-apps-rust-example

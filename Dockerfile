@@ -1,10 +1,10 @@
-FROM golang:1.12-alpine as builder
-WORKDIR /app
+FROM rust:1.40 as builder
+WORKDIR /usr/src/myapp
 COPY . .
-RUN go build -mod=vendor -o bin/hello
+RUN rustup override set nightly; \
+    cargo install --path .
 
-FROM alpine
-RUN apk --no-cache add ca-certificates
-WORKDIR /root/
-COPY --from=builder /app/bin/hello /usr/local/bin/
-CMD ["hello"]
+FROM debian:buster-slim
+COPY --from=builder /usr/local/cargo/bin/myapp /usr/local/bin/myapp
+ENV ROCKET_PORT 80
+CMD myapp
