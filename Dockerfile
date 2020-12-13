@@ -6,5 +6,5 @@ RUN rustup override set nightly; \
 
 FROM debian:buster-slim
 COPY --from=builder /usr/local/cargo/bin/myapp /usr/local/bin/myapp
-ENV ROCKET_PORT 80
+ENV ROCKET_PORT 8080
 CMD myapp

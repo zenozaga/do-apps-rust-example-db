@@ -33,7 +33,7 @@ Follow the tutorial to make your own app at dev.to
 
 When you no longer need this sample application running live, you can delete it by following these steps:
 1. Visit the Apps control panel at https://cloud.digitalocean.com/apps
-1. Navigate to the sample-dockerfile app
+1. Navigate to the do-apps-rust-example app
 1. Choose "Settings"->"Destroy"
 
 This will delete the app and destroy any underlying DigitalOcean resources

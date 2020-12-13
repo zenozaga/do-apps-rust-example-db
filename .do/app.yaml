@@ -6,3 +6,6 @@ services:
     deploy_on_push: true
     repo: davidedelpapa/do-apps-rust-example
   name: do-apps-rust-example
+  http_port: 8080
+  instance_count: 1
+  instance_size_slug: basic-xxs
