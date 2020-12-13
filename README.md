@@ -11,7 +11,7 @@ These steps will get this sample application in Rust running for you using Digit
 
 Click the button below to deploy the app to the DigitalOcean App Platform. If you don't have a DigitalOcean account yet, don't worry! After clicking the button you'll be walked through our account creation process.
 
- [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/davidedelpapa/do_apps_rust_example/tree/main&refcode==8080bc0cceab)
+ [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue-ghost.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/davidedelpapa/do_apps_rust_example/tree/main&refcode==8080bc0cceab)
  
 If you use the above button, you will get also a $100 in credit in DigitalOcean products over 60 days.
 This way, you can take a quick peek at the app creation process, before going over the tutorial.
