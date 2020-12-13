@@ -16,6 +16,8 @@ Click the button below to deploy the app to the DigitalOcean App Platform. If yo
 If you use the above button, you will get also a $100 in credit in DigitalOcean products over 60 days.
 This way, you can take a quick peek at the app creation process, before going over the tutorial.
 
+The procedure is guided, and you can just get the defaults, however upon choosing the plan, on the bottom of the page, you can select the smallest environment (the *512 MB RAM, 1 CPU* container). It might take even a quarter of an hour to build, but as of speed of execution it is the same (Rocket is not taxing on resources).
+
 If you plan to make changes to this app, after trying it, continue to the next section.
 
 ## How to Deploy this Sample App in your own Repo
