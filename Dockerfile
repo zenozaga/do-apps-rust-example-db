@@ -1,4 +1,4 @@
-FROM rust:1.40 as builder
+FROM rust:latest as builder
 WORKDIR /usr/src/myapp
 COPY . .
 RUN rustup override set nightly; \
@@ -6,5 +6,5 @@ RUN rustup override set nightly; \
 
 FROM debian:buster-slim
 COPY --from=builder /usr/local/cargo/bin/myapp /usr/local/bin/myapp
-ENV ROCKET_PORT 8080
+ENV AXUM_PORT 8080
 CMD myapp
