@@ -4,7 +4,7 @@ COPY . .
 RUN rustup override set nightly; \
     cargo install --path .
 
-FROM debian:buster-slim
+FROM ubuntu:20.04
 COPY --from=builder /usr/local/cargo/bin/myapp /usr/local/bin/myapp
 ENV AXUM_PORT 8080
 CMD myapp
