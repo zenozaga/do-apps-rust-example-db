@@ -1,4 +1,4 @@
-FROM rust:latest as builder
+FROM rust:1.68.0 as builder
 WORKDIR /usr/src/myapp
 COPY . .
 RUN rustup override set nightly; \

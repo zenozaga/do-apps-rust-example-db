@@ -4,7 +4,7 @@ services:
   github:
     branch: main
     deploy_on_push: true
-    repo: davidedelpapa/do-apps-rust-example
+    repo: zenozaga/do-apps-rust-example-db
   name: do-apps-rust-example
   http_port: 8080
   instance_count: 1

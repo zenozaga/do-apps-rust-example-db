@@ -4,7 +4,7 @@ spec:
   - dockerfile_path: Dockerfile
     git:
       branch: main
-      repo_clone_url: https://github.com/davidedelpapa/do_apps_rust_example.git
+      repo_clone_url: https://github.com/zenozaga/do-apps-rust-example-db.git
     name: do-apps-rust-example
     http_port: 8080
     instance_count: 1
